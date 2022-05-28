@@ -1,0 +1,303 @@
+.header{
+    background-color: #194F9F;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Arial', sans-serif;
+}
+
+.header-logo{
+    width: 60px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+   
+}
+
+.header-nav{
+    display: flex;
+   
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.option, .option-product, .option-about {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
+} 
+
+.optionCart{
+    display: flex;
+}
+
+.Cartcount{
+    margin-left: 5px;
+    margin-right: 10px; 
+    color: white;
+    margin-top: 7px;
+}
+
+.shoppingIcon{
+    color: white;
+    margin-top: 4px;
+}
+
+.One, .Two, .Three{
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    margin-top: 2px;
+    margin-right: 12px;
+}
+
+.search{
+    display: flex;
+    flex: 1;
+}
+
+.searchInput{
+    height: 12px;
+    padding: 15px;
+    border: none;
+    width: 80%;
+    margin-left: 45px;
+}
+
+.searchIcon{
+    padding: 5px;
+    height: 30px !important;
+    background-color: white;
+}
+
+.login{
+    background-color: #808080;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-logo{
+    width: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-container{
+    background-color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+.login-email, .login-password{
+    border-radius: 5px;
+}
+
+.login-signinbutton, .login-registerbutton{
+    background-color: #1980CB;
+    border: 1px solid;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-container p{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.login-container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.login-container > form > h5{
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.login-container > form > input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.login-link{
+    color: 	#00008B;
+    font-weight: bold;
+}
+
+.login-container > p{
+    font-weight: bold;
+    color: black;
+    margin-top: -3px;
+}
+
+.carousel-img1, .carousel-img2, .carousel-img3{
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    width: 1366px;
+    height: auto;
+    max-width: 100%;
+    max-height: 420px;
+    vertical-align: top;
+}
+
+.home-title{
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    color: black;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    min-width: 100px;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    background-color: #D3E1F0;
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.product > img{
+    max-height: 200px;
+    width: 100;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-top: -35px;
+}
+
+.product-price{
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(228, 18, 46);
+    font-size: 18px;
+}
+
+.product-info{
+    height: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+
+.product > button{
+    background-color: #1980CB;
+    border: 1px solid;
+    border-color: #1980CB;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+} 
+
+.home-row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #194F9F;
+    width: 100%;
+    min-height: 200px;
+    color: whitesmoke;
+}
+
+.footer-top{
+    background-color: #194F9F;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-links{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-lower{
+    min-height: 40px;
+    justify-content: flex-end;
+    display: flex;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-city{
+    margin-top: -17px;
+}
+
+.footer-about, .footer-phone, .footer-email{
+    font-family: 'Arial', sans-serif;
+}
+
+.products{
+    background-color: whitesmoke;
+}
+
+.products-title{
+    text-align: center;
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.products-category{
+    color: black;
+    font-family: 'Arial', sans-serif;
+    margin-left: 10px;
+}
+
+
+.about-one{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+} 
+
+.about-title{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+.about-text {
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}

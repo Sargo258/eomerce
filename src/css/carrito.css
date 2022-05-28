@@ -1,0 +1,48 @@
+.carrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    min-width: 100px;
+    margin: 2px;
+    padding: 35px;
+    width: 75%;
+    background-color: #ffffff;
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.carrito > img{
+    max-height: 200px;
+    width: 100;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-top: -35px;
+}
+
+.carrito-price{
+    margin-top: -20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(2, 0, 124);
+    font-size: 18px;
+}
+
+.carrito-info{
+    height: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(14, 13, 13);
+}
+
+.carrito > button{
+    background-color: #c300ff;
+    border: 1px solid;
+    border-color: #000000;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
